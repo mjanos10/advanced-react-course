@@ -1,5 +1,5 @@
 const Query = {
-  dogs(parent, args, ctx, info) {
+  items(parent, args, ctx, info) {
     return [{ name: 'Snickers' }, { name: 'Sunny' }]
   },
 }

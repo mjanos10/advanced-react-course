@@ -1,5 +1,5 @@
 const mutations = {
-  createDog(parent, args, ctx, info) {
+  createItem(parent, args, ctx, info) {
     console.log(args)
   },
 }
